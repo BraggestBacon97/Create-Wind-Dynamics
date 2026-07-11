@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "windynamics:block/wind_sail_hub",
+    "front": "windynamics:block/wind_sail_hub",
+    "side": "windynamics:block/wind_sail_hub"
+  }
+}

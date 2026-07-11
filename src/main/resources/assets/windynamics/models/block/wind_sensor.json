@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "windynamics:block/wind_sensor",
+    "front": "windynamics:block/wind_sensor",
+    "side": "windynamics:block/wind_sensor"
+  }
+}

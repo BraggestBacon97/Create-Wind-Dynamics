@@ -1,0 +1,86 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+    id 'net.neoforged.moddev' version '2.0.141'
+    id 'idea'
+}
+
+tasks.named('wrapper', Wrapper).configure {
+    distributionType = Wrapper.DistributionType.BIN
+}
+
+version = mod_version
+group = mod_group
+
+base {
+    archivesName = mod_id
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    version = project.neo_version
+
+    runs {
+        client {
+            client()
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+
+        server {
+            server()
+            programArgument '--nogui'
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+
+        data {
+            data()
+            programArguments.addAll '--mod', project.mod_id, '--all', '--output', file('src/generated/resources/').absolutePath, '--existing', file('src/main/resources/').absolutePath
+        }
+
+        configureEach {
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+            logLevel = org.slf4j.event.Level.INFO
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url = uri('https://api.modrinth.com/maven')
+    }
+    maven {
+        url = uri('https://maven.createmod.net')
+    }
+}
+
+dependencies {
+    compileOnly "maven.modrinth:create:${project.create_version}"
+    runtimeOnly "maven.modrinth:create:${project.create_version}"
+
+    compileOnly "maven.modrinth:create-aeronautics:${project.aeronautics_version}"
+    runtimeOnly "maven.modrinth:create-aeronautics:${project.aeronautics_version}"
+
+    compileOnly "net.createmod.ponder:ponder-neoforge:${project.ponder_version}+mc${project.minecraft_version}"
+    runtimeOnly "net.createmod.ponder:ponder-neoforge:${project.ponder_version}+mc${project.minecraft_version}"
+
+    compileOnly "dev.engine-room.flywheel:flywheel-neoforge-${project.minecraft_version}:${project.flywheel_version}"
+    runtimeOnly "dev.engine-room.flywheel:flywheel-neoforge-${project.minecraft_version}:${project.flywheel_version}"
+}
+
+sourceSets.main.resources {
+    srcDir('src/generated/resources')
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 21
+}
+
+idea {
+    module {
+        downloadSources = true
+        downloadJavadoc = true
+    }
+}

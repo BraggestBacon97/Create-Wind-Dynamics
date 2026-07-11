@@ -1,0 +1,38 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "windynamics"
+version = "0.1.2"
+displayName = "Wind Dynamics"
+authors = "BraggestBacon97"
+description = "Dynamic wind maps, sensors, weather, and sail power for Create Aeronautics."
+
+[[dependencies.windynamics]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.windynamics]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.windynamics]]
+modId = "create"
+type = "required"
+versionRange = "[6.0.10,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.windynamics]]
+modId = "aeronautics"
+type = "required"
+versionRange = "[1.2.1,)"
+ordering = "AFTER"
+side = "BOTH"

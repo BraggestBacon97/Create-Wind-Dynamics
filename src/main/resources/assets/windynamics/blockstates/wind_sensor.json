@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "windynamics:block/wind_sensor",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "windynamics:block/wind_sensor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "windynamics:block/wind_sensor",
+      "y": 0
+    },
+    "facing=west": {
+      "model": "windynamics:block/wind_sensor",
+      "y": 270
+    }
+  }
+}
