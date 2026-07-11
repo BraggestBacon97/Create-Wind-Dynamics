@@ -1,0 +1,80 @@
+---- Minecraft Crash Report ----
+// Why did you do that?
+
+Time: 2026-07-10 13:03:17
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Mod loading issue for: simulated --
+Details:
+	Mod file: /home/bacon/.gradle/caches/modules-2/files-2.1/maven.modrinth/create-aeronautics/1.2.1+mc1.21.1/fdf1ae69e8b6437e0196b3a35dd2325aa904aba9/create-aeronautics-1.2.1+mc1.21.1.jar#185!/META-INF/jarjar/dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.2.1.jar
+	Failure message: Mod simulated requires flywheel 1.0.6 or above
+		Currently, flywheel is 1.0.4
+		
+	Mod version: 1.2.1
+	Mod issues URL: <No issues URL found>
+	Exception message: <No associated exception found>
+
+-- Mod loading issue for: sable --
+Details:
+	Mod file: /home/bacon/IdeaProjects/create-wind-dynamics-systematic-scanner-su-fixed/run/mods/sable-neoforge-1.21.1-2.0.3.jar
+	Failure message: Mod sable only supports flywheel 1.0.6 or above
+		Currently, flywheel is 1.0.4
+	Mod version: 2.0.3
+	Mod issues URL: https://github.com/ryanhcode/sable/issues
+	Exception message: <No associated exception found>
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Linux (amd64) version 6.17.0-35-generic
+	Java Version: 21.0.11, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 220631544 bytes (210 MiB) / 752877568 bytes (718 MiB) up to 3642753024 bytes (3474 MiB)
+	CPUs: 8
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 3500U with Radeon Vega Mobile Gfx
+	Identifier: AuthenticAMD Family 23 Model 24 Stepping 1
+	Microarchitecture: Zen / Zen+
+	Frequency (GHz): 2.10
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: Picasso/Raven 2 [Radeon Vega Series / Radeon Vega Mobile Series]
+	Graphics card #0 vendor: Advanced Micro Devices, Inc. [AMD/ATI] (0x1002)
+	Graphics card #0 VRAM (MiB): 258.00
+	Graphics card #0 deviceId: 0x15d8
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 11040.24
+	Virtual memory used (MiB): 11239.99
+	Swap memory total (MiB): 4096.00
+	Swap memory used (MiB): 1257.23
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 6849.77, total: 6944.24
+	Space in storage for workdir (MiB): available: 8847.72, total: 109510.30
+	JVM Flags: 0 total; 
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeclientdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.42.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.42.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.42.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		neoforge-21.1.228.jar                             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		neoforge-21.1.228.jar                             |NeoForge                      |neoforge                      |21.1.228            |Manifest: NOSIGNATURE

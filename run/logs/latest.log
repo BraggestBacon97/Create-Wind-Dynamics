@@ -1,0 +1,154 @@
+[10Jul2026 14:53:29.983] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.234, --assetIndex, 17, --assetsDir, /home/bacon/.gradle/caches/neoformruntime/assets, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.234, --fml.neoFormVersion, 20240808.144430]
+[10Jul2026 14:53:29.997] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.11+10-LTS
+[10Jul2026 14:53:30.017] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Eclipse Adoptium; OS Linux arch amd64 version 6.17.0-35-generic
+[10Jul2026 14:53:30.835] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[10Jul2026 14:53:31.638] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[10Jul2026 14:53:32.052] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[10Jul2026 14:53:32.544] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/home/bacon/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23126!/ Service=ModLauncher Env=CLIENT
+[10Jul2026 14:53:32.957] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: AMD Radeon Vega 8 Graphics (radeonsi, raven, ACO, DRM 3.64, 6.17.0-35-generic) GL version 4.6 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2, AMD
+[10Jul2026 14:53:39.444] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: ponder. Using Mod File: /home/bacon/.gradle/caches/modules-2/files-2.1/net.createmod.ponder/ponder-neoforge/1.0.82+mc1.21.1/b10a04f40b9d6d33c346fb38df33f10f7e51b713/ponder-neoforge-1.0.82+mc1.21.1.jar
+[10Jul2026 14:53:39.448] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: flywheel. Using Mod File: /home/bacon/.gradle/caches/modules-2/files-2.1/dev.engine-room.flywheel/flywheel-neoforge-1.21.1/1.0.6/a943872ad0bdd4458d818d8d7dc123fb250eb744/flywheel-neoforge-1.21.1-1.0.6.jar
+[10Jul2026 14:53:39.453] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 11 dependencies adding them to mods collection
+[10Jul2026 14:53:39.476] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Create 6.0.10 (create)
+		Create Aeronautics 1.3.0 (aeronautics)
+		Create Aeronautics 1.3.0 (aeronautics_bundled)
+		Create Offroad 1.3.0 (offroad)
+		Create Simulated 1.3.0 (simulated)
+		Flywheel 1.0.6 (flywheel)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.234 (neoforge)
+		Ponder 1.0.82+mc1.21.1 (ponder)
+		Sable 2.0.3 (sable)
+		Sable Companion 1.6.0 (sablecompanion)
+		Veil 4.1.4 (veil)
+		Wind Dynamics 0.1.2 (windynamics)
+[10Jul2026 14:53:45.763] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[10Jul2026 14:53:46.102] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.234, --gameDir, ., --assetsDir, /home/bacon/.gradle/caches/neoformruntime/assets, --assetIndex, 17]
+[10Jul2026 14:53:46.798] [main/WARN] [mixin/]: Reference map 'simulated.refmap.json' for simulated.mixins.json could not be read. If this is a development environment you can ignore this message
+[10Jul2026 14:53:46.854] [main/WARN] [mixin/]: Reference map 'aeronautics.refmap.json' for aeronautics.mixins.json could not be read. If this is a development environment you can ignore this message
+[10Jul2026 14:53:47.416] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[10Jul2026 14:53:47.729] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
+[10Jul2026 14:53:47.731] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
+[10Jul2026 14:53:47.735] [main/WARN] [mixin/]: Reference map 'offroad.refmap.json' for offroad.mixins.json could not be read. If this is a development environment you can ignore this message
+[10Jul2026 14:53:51.552] [main/WARN] [mixin/]: Error loading class: net/irisshaders/iris/pipeline/PipelineManager (java.lang.ClassNotFoundException: net.irisshaders.iris.pipeline.PipelineManager)
+[10Jul2026 14:53:51.576] [main/WARN] [mixin/]: @Mixin target net.irisshaders.iris.pipeline.PipelineManager was not found veil.neoforge.mixins.json:client.perspective.iris.PipelineManagerMixin from mod veil
+[10Jul2026 14:53:52.423] [main/WARN] [mixin/]: Error loading class: mezz/jei/library/plugins/vanilla/ingredients/ItemStackListFactory (java.lang.ClassNotFoundException: mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory)
+[10Jul2026 14:53:56.441] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval)
+[10Jul2026 14:53:56.777] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[10Jul2026 14:54:03.462] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 1156 milliseconds
+[10Jul2026 14:54:20.853] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10Jul2026 14:54:20.862] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10Jul2026 14:54:20.882] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[10Jul2026 14:54:20.888] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[10Jul2026 14:54:20.894] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10Jul2026 14:54:21.541] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/bacon/IdeaProjects/create-wind-dynamics-systematic-scanner-su-fixed/build/moddev/artifacts/neoforge-21.1.234.jar%23177!/assets/.mcassetsroot' uses unexpected schema
+[10Jul2026 14:54:21.543] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/bacon/IdeaProjects/create-wind-dynamics-systematic-scanner-su-fixed/build/moddev/artifacts/neoforge-21.1.234.jar%23177!/data/.mcassetsroot' uses unexpected schema
+[10Jul2026 14:54:21.600] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10Jul2026 14:54:21.659] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[10Jul2026 14:54:22.070] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[10Jul2026 14:54:23.747] [modloading-worker-0/INFO] [Veil/]: Veil is initializing.
+[10Jul2026 14:54:23.797] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.234, for MC 1.21.1
+[10Jul2026 14:54:24.249] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.10 initializing! Commit hash: ac0c444d9828da3453ae8cc65338e8de063286fb
+[10Jul2026 14:54:30.406] [modloading-worker-0/INFO] [dev.ryanhcode.sable.Sable/]: Sable loaded!
+[10Jul2026 14:54:30.465] [modloading-worker-0/WARN] [dev.ryanhcode.sable.Sable/]: NOTE: Sable is loaded with Flywheel. Sable contains extensive shader overrides and a full light-storage replacement. Expect this to cause compatibility issues. If issues arise, please report them to the Sable issue tracker (https://github.com/ryanhcode/sable/issues) instead of the Flywheel issue tracker.
+[10Jul2026 14:54:36.411] [Render thread/INFO] [Veil/]: GL Debug supported
+[10Jul2026 14:54:37.183] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [windynamics]
+[10Jul2026 14:54:38.105] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/veil, mod/simulated, mod/aeronautics, mod/aeronautics_bundled, mod/flywheel, mod/ponder, mod/sablecompanion, mod/create, mod/windynamics, mod/sable, mod/offroad, mod/neoforge
+[10Jul2026 14:54:38.335] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Starting version check at https://api.modrinth.com/updates/create/forge_updates.json?neoforge=only
+[10Jul2026 14:54:38.521] [Worker-Main-2/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[10Jul2026 14:54:40.100] [Worker-Main-1/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[10Jul2026 14:54:40.267] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Found status: OUTDATED Current: 6.0.10 Target: 6.0.10+mc1.21.1
+[10Jul2026 14:54:50.423] [Render thread/INFO] [Veil/]: Loaded 0 shader modifications
+[10Jul2026 14:54:50.989] [Render thread/INFO] [Veil/]: Loaded 29 shaders from: pinwheel/shaders/program
+[10Jul2026 14:54:51.389] [Worker-Main-6/INFO] [PonderIndex/]: Registering Ponder Scenes took 372.6 ms
+[10Jul2026 14:54:51.416] [Worker-Main-6/INFO] [PonderIndex/]: Registering Ponder Tags took 25.74 ms
+[10Jul2026 14:54:51.841] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[10Jul2026 14:54:51.846] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[10Jul2026 14:54:52.114] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device Family 17h/19h HD Audio Controller Analog Stereo
+[10Jul2026 14:54:52.117] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[10Jul2026 14:54:52.576] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[10Jul2026 14:54:52.792] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[10Jul2026 14:54:52.795] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[10Jul2026 14:54:52.798] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[10Jul2026 14:54:52.803] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[10Jul2026 14:54:52.857] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[10Jul2026 14:54:52.859] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[10Jul2026 14:54:52.862] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[10Jul2026 14:54:52.865] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[10Jul2026 14:54:53.037] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
+[10Jul2026 14:54:53.044] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[10Jul2026 14:54:53.048] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[10Jul2026 14:54:53.050] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[10Jul2026 14:54:53.052] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[10Jul2026 14:54:53.142] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[10Jul2026 14:54:53.341] [Render thread/INFO] [Veil/]: Loaded 3 framebuffers
+[10Jul2026 14:54:53.406] [Render thread/INFO] [Veil/]: Loaded 6 post pipelines
+[10Jul2026 14:54:53.449] [Render thread/INFO] [Veil/]: Loaded 4 render types
+[10Jul2026 14:54:53.450] [Render thread/INFO] [Veil/]: Enabled bloom pipeline
+[10Jul2026 14:54:53.454] [Render thread/INFO] [Veil/]: Loaded 0 quasar particles
+[10Jul2026 14:54:53.456] [Render thread/INFO] [Veil/]: Loaded 0 templates
+[10Jul2026 14:54:53.457] [Render thread/INFO] [Veil/]: Loaded 0 modules
+[10Jul2026 14:54:53.611] [Render thread/INFO] [flywheel/backend/shaders/]: Loaded 77 shader sources in 129.757 ms
+[10Jul2026 14:54:53.729] [Render thread/INFO] [com.simibubi.create.Create/]: Loaded 58 train hat configurations.
+[10Jul2026 14:54:53.752] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[10Jul2026 14:54:54.309] [Render thread/INFO] [Veil/]: Compiled 58 vanilla shaders in 990.1 ms
+[10Jul2026 14:54:55.168] [Render thread/INFO] [Veil/]: Finished uploading vanilla shaders
+[10Jul2026 14:55:18.670] [Render thread/INFO] [com.simibubi.create.Create/]: Created 157 recipes which will be injected into the game
+[10Jul2026 14:55:18.681] [Render thread/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[10Jul2026 14:55:22.079] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 2941 recipes
+[10Jul2026 14:55:22.508] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2644 advancements
+[10Jul2026 14:55:25.249] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[10Jul2026 14:55:25.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[10Jul2026 14:55:25.713] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:overworld] using RapierPhysicsPipelineProvider
+[10Jul2026 14:55:26.662] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:the_nether] using RapierPhysicsPipelineProvider
+[10Jul2026 14:55:26.733] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:the_end] using RapierPhysicsPipelineProvider
+[10Jul2026 14:55:26.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[10Jul2026 14:55:27.530] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jul2026 14:55:27.532] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jul2026 14:55:27.832] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
+[10Jul2026 14:55:28.053] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1232 ms
+[10Jul2026 14:55:28.056] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[10Jul2026 14:55:28.268] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[10Jul2026 14:55:28.268] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[10Jul2026 14:55:28.492] [Render thread/INFO] [dev.ryanhcode.sable.Sable/]: Adding local UDP server channel future
+[10Jul2026 14:55:28.548] [Render thread/WARN] [io.netty.bootstrap.Bootstrap/]: Unknown channel option 'SO_BROADCAST' for channel '[id: 0x7226b657]'
+[10Jul2026 14:55:28.571] [Netty Server IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Server UDP channel active
+[10Jul2026 14:55:28.633] [Render thread/INFO] [dev.ryanhcode.sable.Sable/]: Starting local client UDP channel future
+[10Jul2026 14:55:28.639] [Netty Local Client IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel active
+[10Jul2026 14:55:29.363] [Render thread/INFO] [com.simibubi.create.Create/]: Created 157 recipes which will be injected into the game
+[10Jul2026 14:55:29.390] [Render thread/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[10Jul2026 14:55:30.226] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:2ceb355c] logged in with entity id 1 at (3.5, 63.0, 7.5)
+[10Jul2026 14:55:30.237] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Beginning attempted authentication with player Dev
+[10Jul2026 14:55:30.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[10Jul2026 14:55:32.067] [Render thread/INFO] [flywheel/]: Started 2 worker threads
+[10Jul2026 14:55:32.232] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
+[10Jul2026 14:55:33.047] [Render thread/INFO] [Veil/]: Multi-Bind supported, using core
+[10Jul2026 14:55:58.513] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[10Jul2026 14:55:58.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[10Jul2026 14:55:58.542] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:overworld
+[10Jul2026 14:55:58.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[10Jul2026 14:55:58.559] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:the_nether
+[10Jul2026 14:55:58.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[10Jul2026 14:55:58.560] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:the_end
+[10Jul2026 14:55:59.453] [Netty Local Client IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel inactive
+[10Jul2026 14:55:59.453] [Netty Local Client IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Closed UDP channel!
+[10Jul2026 14:55:59.478] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[10Jul2026 14:55:59.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[10Jul2026 14:55:59.507] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[10Jul2026 14:55:59.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[10Jul2026 14:55:59.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[10Jul2026 14:55:59.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[10Jul2026 14:56:00.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[10Jul2026 14:56:00.175] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:overworld
+[10Jul2026 14:56:00.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[10Jul2026 14:56:00.215] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:the_nether
+[10Jul2026 14:56:00.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[10Jul2026 14:56:00.232] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:the_end
+[10Jul2026 14:56:00.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[10Jul2026 14:56:00.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10Jul2026 14:56:00.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10Jul2026 14:56:00.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

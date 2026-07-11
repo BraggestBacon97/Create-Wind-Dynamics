@@ -1,0 +1,2 @@
+/give @s windynamics:wind_sensor
+/mod
